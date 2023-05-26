@@ -1,0 +1,111 @@
+
+ /* footer */
+.footer {
+    margin: 0vh auto 1vh auto;
+}  
+
+/* start - footer  */
+.footer__start {
+    width: 80vw;
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__start-logo {
+    margin: 3vh auto;
+    width:10%;
+}
+.footer__start-title {
+    margin: 2vh auto;
+}
+.footer__start-subtitle {
+    font-size: calc(var(--index) * 1);
+    font-weight: 400;
+}
+.footer__start-button {
+    display: block;
+    width: 25%;
+    margin: 3vh auto;
+}
+.footer__start-text{
+    font-size: calc(var(--index) * 1);
+    letter-spacing: calc(var(--index) * 0.1) ;
+    margin: auto;
+}
+.footer__start-text span {
+    font-size: calc(var(--index) * 1);
+    letter-spacing: calc(var(--index) * 0.1) ;
+}
+.footer__bottom {
+    margin: 15vh auto auto auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__bottom-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__bottom-logo img {
+    width: 70%;
+}
+.footer__info {
+    font-size:calc(var(--index) * 0.7);
+    font-weight: 400;
+}
+.footer__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+}
+.footer__nav-link {
+    font-weight: 500;
+    font-size: calc(var(--index) * 0.7);
+    line-height: calc(var(--index) * 2 );
+    color: #707070;
+    transition: 0.3s;
+}
+.footer__nav-link:hover {
+    color: #f0f0f0;
+    transition: 0.2s;
+} 
+.footer__active {
+    color: #326DF9;
+}
+
+
+@media (min-width: 1600px) {
+}
+@media (max-width: 768px) {
+    .footer__start-button {
+        display: block;
+        width: 80%;
+        margin: 3vh auto;
+    }
+    .footer__bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__bottom-logo{
+        align-items: center;
+    }
+    .footer__info {
+        font-size: calc(var(--index) * 1);
+        
+    }
+    .footer__nav-link{
+        margin-top: 5vh;
+        font-size: calc(var(--index) * 1.4);
+    }
+}
+/* fhone */
+@media (max-width: 480px) {
+
+}

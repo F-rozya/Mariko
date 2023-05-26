@@ -1,0 +1,37 @@
+
+/* triggers  */
+.trigger-act {
+    opacity: 0;
+    transition: 1s;
+}
+.trigger-show {
+    opacity: 1;
+    transition: 1s;
+}
+.trigger-act>*{
+    transform:scale(0.5);
+    filter: blur(2px);
+    transition: 1s;
+}
+.trigger-show>* {
+    transform:scale(1);
+    transition: 1s;
+    filter: blur(0px);
+}
+.trigger-act>div{
+    transform: scale(0.8);
+    transition: 1s;
+}
+.trigger-show>div{
+    transform: scale(1);
+    transition: 1s;
+}
+
+.trigger-act a{
+    transform:scale(0.9);
+    transition: 1s;
+}
+.trigger-show a{
+    transform:scale(1);
+    transition: 1s;
+}
